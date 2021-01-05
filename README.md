@@ -9,13 +9,12 @@
 ### 웹 개발 방식
 
 * 정적 컨텐츠 : 파일을 그대로 웹 브라우저에 내려주는 방식
-<img src="C:\Users\ko\Desktop\Spring\정적 컨텐츠.png" width = "450px" height = "300px"></img><br/>
 
 * MVC와 템플릿 엔진 : Model, View, Controller로 나눈 후, 서버에서 html을 동적으로 프로그래밍하여 내려주는 방식
-<img src="C:\Users\ko\Desktop\Spring\MVC.png" width = "450px" height = "300px"></img><br/>
+
 
 * API : JSON이라는 데이터 구조 포맷으로 클라이언트에게 데이터를 전달하는 방식
-<img src="C:\Users\ko\Desktop\Spring\API.png" width = "450px" height = "300px"></img><br/>
+- JSON : 키-값 쌍으로 이루어진 데이터 오브젝트를 전달하기 위해 인간이 읽을 수 있는 텍스트를 사용하는 개방형 표준 포맷
 
 ### TDD (Test-Driven Development)
 
@@ -30,6 +29,12 @@
 1) 생산성 저하
 2) 러닝 커브
 3) 초기 개발 비용 증가
+
+### TestCase 작성 구조
+* 기본적으로 given, when, then 구조를 이용하여 작성한다.
+1) given : 주어진 상황
+2) when : 실행하였을 때
+3) then : 기대하는 결과
 
 ### 스프링 빈을 등록하는 2가지 방법
 1) 컴포넌트 스캔과 자동 의존관계 설정 : @Component 애노테이션이 있으면 스프링 빈에 자동 등록
